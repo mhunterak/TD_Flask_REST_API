@@ -67,9 +67,11 @@ class TodoTestResources(unittest.TestCase):
         self.assertEqual(rv.status_code, 204)
 
 
-# Run Tests
+# Run all Tests
 if __name__ == '__main__':
+    # load tests from TodoTestResources
     suite = unittest.TestLoader().loadTestsFromTestCase(TodoTestResources)
+    # load tests from ModelsTestCase
     suite.addTest(unittest.TestLoader().loadTestsFromTestCase
                   (ModelsTestCase))
     unittest.TextTestRunner(verbosity=2).run(suite)

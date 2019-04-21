@@ -16,6 +16,8 @@ class Todo(peewee.Model):
     The Todo model holds the name of each todo in the database.
     '''
     name = peewee.CharField()
+    # XXC: this isn't included in instructions, but this handles if a box is checked
+    completed = peewee.BooleanField(default=False)
 
     class Meta:
         database = DATABASE

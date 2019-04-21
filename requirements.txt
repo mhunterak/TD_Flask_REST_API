@@ -9,7 +9,6 @@ Flask-HTTPAuth==3.2.4
 Flask-RESTful==0.3.6
 idna==2.8
 itsdangerous==0.24
-Jinja2==2.10
 MarkupSafe==1.0
 peewee==3.7.0
 pep8==1.7.1
@@ -17,5 +16,4 @@ pycodestyle==2.5.0
 pytz==2018.5
 requests==2.21.0
 six==1.11.0
-urllib3==1.24.1
 Werkzeug==0.14.1

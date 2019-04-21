@@ -11,12 +11,12 @@ DESCRIPTION: Take a messy, buggy, badly tested Python code base and improve it. 
    and 
    > `source .env/bin/activate`
 
-A predefined build task has been made for users of Visual Studio code in `.vscode/tasks.json`
+1. Use the
+    > `pip install -r requirements.txt` command to install the project dependencies.
+
+A predefined build task has been made for users of Visual Studio code in `.vscode/tasks.json` for running or testing the server.
 
 Or:
-
-1. Use the 
-    > `pip install -r requirements.txt` command to install the project dependencies.
 
 2. Run the server.
    > `python app.py`
